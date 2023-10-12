@@ -3,35 +3,46 @@
 <link rel="icon" type="image/png" href="/favicon.png" />
 
 <head>
-  <title>winson lam | projects</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="/main.css">
+    <title>winson lam | about</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-  <div id="header">
-    <div id="name">
-      <h1><a style="text-decoration: none;" href="/index.html">winson lam</a></h1>
-    </div>
-    <div class="container">
-      <nav>
-        <ul>
-          <li><a href="/about/">about</a></li>
-          <li id="current">projects</a></li>
-          <li><a href="https://lawin.ca/resume/">resume</a></li>
-        </ul>
-      </nav>
+    <div id="header">
+        <div id="name">
+            <h1><a style="text-decoration: none;" href="/index.html">winson lam</a></h1>
+        </div>
+        <div class="container">
+            <nav>
+                <ul id="sideMenu">
+                    <li><a href="/about/">about</a></li>
+                    <li id="current">projects</a></li>
+                    <li><a href="https://lawin.ca/resume/">resume</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+
     </div>
 
-  </div>
-
-  <div id="title">
-    <h1 class="title-text">Projects</h1>
-    <div class="body">
-      Current Projects:
+    <div id="title">
+        <h1 id="title-text">Projects</h1>
+        <div id="pageBody">
+            Current Projects:
+            <br><br>
+            Coming soon...
+        </div>
     </div>
-  </div>
 
+    <footer>
+        <p>Built and designed by Winson Lam</p>
+        <p>All rights reserved. ©</p>
+    </footer>
+
+    <script src="/main.js"></script>
 </body>
 
 </html>
