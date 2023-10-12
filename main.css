@@ -44,12 +44,12 @@ body {
 }
 
 .container {
-  width: 15vw;
+  width: auto;
   height: 100px;
   padding: 0 30px;
   float: right;
   position: relative;
-  top: -62px;
+  top: -60px;
   text-transform: lowercase;
 }
 
@@ -82,4 +82,54 @@ nav ul li a:hover {
 nav ul li a.active {
   background: #333;
   color: #fff;
+}
+
+#current {
+  background: #2d2dff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#title {
+  color: #0000df;
+  width: 50vw;
+  height: 100px;
+  padding: 5vw 30vw;
+  justify-content: center;
+}
+
+.title-text {
+  font-size: 48px;
+}
+
+.body {
+  color: #0000df;
+  width: 45vw;
+  height: 100%;
+  padding: 30px 30px;
+  justify-content: center;
+  font-size: 24px;
+}
+
+/* @media screen - media query
+   and (max-width: X) - targets screens with a maximum width of X*/
+@media screen and (max-width: 900px) {
+  #title {
+    height: auto;
+    width: auto;
+    padding: 10vw;
+    font-size: 24px;
+  }
+
+  .title-text {
+    font-size: 24px;
+  }
+
+  .body {
+    height: auto;
+    width: auto;
+    padding: 30px;
+    font-size: 18px;
+  }
 }
