@@ -121,6 +121,7 @@ footer {
 
 /* -- small/mobile screen css */
 
+/* nav .fas - targets the font awesome icon in the nav */
 nav .fas {
   display: none;
 }
@@ -128,6 +129,10 @@ nav .fas {
 /* @media screen - media query
    and (max-width: X) - targets screens with a maximum width of X*/
 @media screen and (max-width: 980px) {
+
+  /* all the following css styles the existing elements specifically
+  for screen sizes with a maximum width of 980px */
+
   #name {
     font-size: 25px;
   }
@@ -188,7 +193,7 @@ nav .fas {
   }
 
   footer {
-    font-size: 24px;
+    font-size: 12px;
     padding-bottom: 10px;
   }
 
